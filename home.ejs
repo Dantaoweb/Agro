@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Navbar partial -->
+    <%- include('partials/navbar') %>
+
+    <div class="container">
+        <h1>Welcome, <%= username %>!</h1>
+        <p>This is the homepage of our platform.</p>
+
+        <% if (user.role === 'Admin') { %>
+            <a href="/admin/dashboard">Go to Admin Dashboard</a>
+        <% } else { %>
+            <a href="/user/profile">Go to Profile</a>
+        <% } %>
+    </div>
+
+    <!-- Footer partial -->
+    <%- include('partials/footer') %>
+
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
