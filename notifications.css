@@ -1,0 +1,27 @@
+/* frontend/styles/notifications.css */
+
+.notifications {
+    padding: 1rem;
+    border: 1px solid #ddd;
+  }
+  
+  .notifications ul {
+    list-style-type: none;
+  }
+  
+  .notifications li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .notifications button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+  }
+  
+  .notifications button:hover {
+    background: #0056b3;
+  }

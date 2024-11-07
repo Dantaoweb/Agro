@@ -1,0 +1,13 @@
+/* main.css */
+@import "base/reset.css";
+@import "base/variables.css";
+@import "components/buttons.css";
+@import "components/forms.css";
+@import "layouts/farmerDashboard.css";
+@import "layouts/consultantDashboard.css";
+@import "layouts/validatorDashboard.css";
+@import "layouts/adminDashboard.css";
+@import "layouts/guardWorkerDashboard.css";
+@import "layouts/buyerDashboard.css";
+@import "layouts/investorDashboard.css";
+@import "layouts/partnerDashboard.css";
